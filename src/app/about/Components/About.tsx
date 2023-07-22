@@ -9,7 +9,6 @@ import Link from 'next/link';
 function About() {
   const quote = `"There are more important things in life than winning or losing a game."`;
   const quote2 = `"Dreams are not what you see in your sleep; dreams are things which do not let you sleep."`;
-  const skills:string = " HTML, CSS, Javascript , React , Responsive design ";
   const whyIT = "Chasing Dreams: Why I Embraced the IT Industry";
 
 
@@ -31,13 +30,13 @@ function About() {
         <div className="container mx-auto py-8 text-center">
           <h1 className="text-3xl lg:text-4xl font-bold mb-4">About Me</h1>
           <p className="text-xl md:text-2xl text-white mb-6">
-            Hi, I am Abhishek Kumar, a frontend web developer passionate about creating engaging and user-friendly web experiences. With a background in commerce and a love for coding, I embarked on my journey as a web developer in August 2022. Since then, I have been continuously learning and evolving my skills.
+            {`Hi, I am Abhishek Kumar, a frontend web developer passionate about creating engaging and user-friendly web experiences. With a background in commerce and a love for coding, I embarked on my journey as a web developer in August 2022. Since then, I have been continuously learning and evolving my skills.`}
           </p>
           <p className="text-xl md:text-2xl text-white mb-6">
-            I specialize in front-end development, with expertise in HTML, CSS, and JavaScript frameworks like React. I enjoy translating design concepts into responsive and interactive websites that deliver an exceptional user experience.
+           {` I specialize in front-end development, with expertise in HTML, CSS, and JavaScript frameworks like React. I enjoy translating design concepts into responsive and interactive websites that deliver an exceptional user experience.`}
           </p>
           <p className="text-xl md:text-2xl text-white">
-            Apart from coding, I am an avid learner, constantly exploring new technologies and trends in web development. I believe in clean and maintainable code practices and strive for continuous improvement in my work.
+            {`Apart from coding, I am an avid learner, constantly exploring new technologies and trends in web development. I believe in clean and maintainable code practices and strive for continuous improvement in my work.`}
           </p>
         </div>
 
@@ -91,15 +90,15 @@ function About() {
         </p>
 
         <p className="text-xl md:text-2xl text-white">
-   So, I have completed my graduation in commerce. You may be wondering why I chose the IT sector instead of continuing in the commerce sector. To understand this, you need to know that I come from a backward village where things are different. Initially, I didn't have proper guidance when I completed my matriculation, and I ended up choosing commerce without a clear reason.
+   {`So, I have completed my graduation in commerce. You may be wondering why I chose the IT sector instead of continuing in the commerce sector. To understand this, you need to know that I come from a backward village where things are different. Initially, I didn't have proper guidance when I completed my matriculation, and I ended up choosing commerce without a clear reason.`}
         </p>
 
         <p className="text-xl md:text-2xl text-white">
-        Moreover, after completing my school education, I had the opportunity to pursue a career in the IT field by opting for a B.Tech or other computer science courses. However, due to the lack of proper guidance and financial resources, I couldn't pursue that path. Despite these challenges, I managed to complete my graduation. Now, faced with the decision of pursuing higher studies, I again found myself limited by financial constraints.
+       {` Moreover, after completing my school education, I had the opportunity to pursue a career in the IT field by opting for a B.Tech or other computer science courses. However, due to the lack of proper guidance and financial resources, I couldn't pursue that path. Despite these challenges, I managed to complete my graduation. Now, faced with the decision of pursuing higher studies, I again found myself limited by financial constraints.`}
         </p>
 
         <p className="text-xl md:text-2xl text-white">
-        This situation led me to a critical point where I had to decide my future path. I realized that there is no guarantee of success in any field, including commerce. So, I made the decision to follow my passion for coding. I didn't want to regret not trying and not following my true passion. Life is uncertain, and I believe that taking a chance on what I love is worth it, regardless of the outcome.
+       {` This situation led me to a critical point where I had to decide my future path. I realized that there is no guarantee of success in any field, including commerce. So, I made the decision to follow my passion for coding. I didn't want to regret not trying and not following my true passion. Life is uncertain, and I believe that taking a chance on what I love is worth it, regardless of the outcome.`}
         </p>
 
       </div>
@@ -111,7 +110,7 @@ function About() {
 Educational Background
   </p>
   <p className='text-xl md:text-2xl'>
-  I have graduated in Commerce. However, since August 2022, I have been wholeheartedly dedicating myself to learning and practicing Frontend Web Development, which has resulted in a substantial wealth of knowledge in this field. Moreover, I am constantly pushing myself to learn new things and stay updated with the latest technologies.
+  {`I have graduated in Commerce. However, since August 2022, I have been wholeheartedly dedicating myself to learning and practicing Frontend Web Development, which has resulted in a substantial wealth of knowledge in this field. Moreover, I am constantly pushing myself to learn new things and stay updated with the latest technologies.`}
   </p>
   <p className='text-2xl md:text-3xl lg:text-4xl my-5 font-semibold'>
    Something in Frontend Web Development
@@ -142,11 +141,11 @@ Educational Background
 Passions And Hobbies
   </p>
   <p className='text-xl md:text-2xl'>
-  I have a variety of passions and hobbies that I deeply enjoy. Firstly, I absolutely love watching football, which brings me immense joy. Secondly, playing video games has always been a source of excitement and entertainment for me. However, my greatest passion lies in coding, I find myself completely immersed and fulfilled while working on coding projects.
+  {`I have a variety of passions and hobbies that I deeply enjoy. Firstly, I absolutely love watching football, which brings me immense joy. Secondly, playing video games has always been a source of excitement and entertainment for me. However, my greatest passion lies in coding, I find myself completely immersed and fulfilled while working on coding projects.`} <br />
 
-Recently, I've developed a new hobby, reading books. I have started exploring works from different authors and delving into various topics, broadening my knowledge and perspectives.
+{`Recently, I've developed a new hobby, reading books. I have started exploring works from different authors and delving into various topics, broadening my knowledge and perspectives.`} <br />
 
-Another activity that brings me immense satisfaction is traveling. Although I have not had the opportunity to travel extensively yet, I hold a strong desire to explore beautiful places, especially in Europe and America. I am determined to pursue this dream whenever the opportunity arises.
+{`Another activity that brings me immense satisfaction is traveling. Although I have not had the opportunity to travel extensively yet, I hold a strong desire to explore beautiful places, especially in Europe and America. I am determined to pursue this dream whenever the opportunity arises.`}
   </p>
  </div>
 
@@ -155,7 +154,7 @@ Another activity that brings me immense satisfaction is traveling. Although I ha
 Experience 
 </p>
 <p className='text-xl md:text-2xl'>
-i have no work experience 
+{`While I haven't had any formal work experience, I've been actively working on personal projects. Through these projects, I've gained valuable knowledge and skills in working with APIs, frontend design, and development. I'm proud of what I've accomplished independently and look forward to taking on new challenges in the future!`} 
 </p>
    </div>
  
