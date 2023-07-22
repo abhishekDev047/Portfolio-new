@@ -90,15 +90,15 @@ function About() {
         </p>
 
         <p className="text-xl md:text-2xl text-white">
-   {`So, I have completed my graduation in commerce. You may be wondering why I chose the IT sector instead of continuing in the commerce sector. To understand this, you need to know that I come from a backward village where things are different. Initially, I didn't have proper guidance when I completed my matriculation, and I ended up choosing commerce without a clear reason.`}
+   {`So, I have completed my graduation in commerce. You may be wondering why I chose the IT sector instead of continuing in the commerce sector.So having completed my graduation in commerce, I faced some unique challenges, including a lack of proper guidance and financial resources. Despite these hurdles, I remained determined to pursue my passion for coding.`}
         </p>
 
         <p className="text-xl md:text-2xl text-white">
-       {` Moreover, after completing my school education, I had the opportunity to pursue a career in the IT field by opting for a B.Tech or other computer science courses. However, due to the lack of proper guidance and financial resources, I couldn't pursue that path. Despite these challenges, I managed to complete my graduation. Now, faced with the decision of pursuing higher studies, I again found myself limited by financial constraints.`}
+       {` After completing my school education, I had the opportunity to explore a career in the IT field, but financial constraints prevented me from taking that path. Despite these limitations, I managed to complete my graduation.`}
         </p>
 
         <p className="text-xl md:text-2xl text-white">
-       {` This situation led me to a critical point where I had to decide my future path. I realized that there is no guarantee of success in any field, including commerce. So, I made the decision to follow my passion for coding. I didn't want to regret not trying and not following my true passion. Life is uncertain, and I believe that taking a chance on what I love is worth it, regardless of the outcome.`}
+       {` Now, standing at a critical crossroad, I realized that success is not guaranteed in any field. With this understanding, I chose to embrace my love for coding and dedicate myself to continuous learning. I firmly believe that taking a chance on my passion is worthwhile, regardless of the outcome.I am enthusiastic about the future and excited to embark on a journey where I can apply my knowledge and skills to contribute to meaningful projects and grow as a developer.`}
         </p>
 
       </div>
